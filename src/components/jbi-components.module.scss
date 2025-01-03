@@ -1,0 +1,26 @@
+.root {
+  flex: 1;
+  padding: 4px 8px;
+  max-height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin: 0;
+}
+
+.component {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+}

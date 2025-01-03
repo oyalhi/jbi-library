@@ -1,0 +1,30 @@
+.root {
+  padding: 32px;
+  width: 100dvw;
+  height: 100dvh;
+  max-width: 100dvw;
+  max-height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 0;
+  }
+
+  input {
+    width: 300px;
+    padding: 8px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: inherit;
+  }
+
+  .wrapper {
+    margin-top: 16px;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+  }
+}
